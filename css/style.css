@@ -1,4 +1,11 @@
-header{
+.main-header{
     background-color: brown;
     text-align: center;
+}
+nav{
+    background-color: burlywood;
+}
+video{
+    width: 20%;
+    height: 300px;
 }
