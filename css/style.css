@@ -2,6 +2,7 @@ body{
     margin: 0;
 }
 .main-header{
+    padding-top: 10px;
     background-color:  #f5f5f5;
     text-align: center;
     top: 0;
@@ -13,7 +14,7 @@ a,nav a{
 }
 .main-nav__item{
     display: inline-block;
-    width: 30%;
+    width: 20%;
 }
 nav{
     padding-bottom: 1px;
@@ -32,4 +33,18 @@ video{
     margin-right: auto;
     box-sizing: border-box;
     box-shadow: 8px 8px 8px 8px;
+}
+.video-pc{
+    margin-bottom: 10px;
+}
+#index-section{
+    margin-top: 50px;
+}
+.logo{
+    width: 200px;
+    height: 130px;
+    float: left;
+}
+.website-title{
+    margin-top: 0;
 }
