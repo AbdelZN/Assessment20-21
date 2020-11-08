@@ -1,3 +1,41 @@
+@media screen and (min-width:1280px){
+    video{
+        width: 900px;
+        display: block;
+        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        box-sizing: border-box;
+        box-shadow: 8px 8px 8px 8px;
+    }
+    .video-pc{
+        margin-bottom: 10px;
+    }
+    .big-container{
+        margin-top: 50px;
+        display: flex;
+    }
+    #index-section{
+        margin-top: 50px;
+        margin-right: 50px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    .index-aside{
+        width: 25%;
+        margin-right: 20px;
+        flex-grow: 0;
+        flex-shrink: 0;
+        font-size: 1.3em;
+        border-style: double;
+        border-color: #000000;
+        border-width: 4px;
+        background-color: #add8e6 ;
+    }
+}
+@media screen and (min-width:481px) and (max-width:1179px){
+}
 body{
     margin: 0;
 }
@@ -23,29 +61,7 @@ a:hover{
 a:active{
     font-weight: bold;
 }
-video{
-    width: 900px;
-    display: block;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    box-shadow: 8px 8px 8px 8px;
-}
-.video-pc{
-    margin-bottom: 10px;
-}
-.big-container{
-    margin-top: 50px;
-    display: flex;
-}
-#index-section{
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: column;
-}
+
 .logo{
     width: 200px;
     height: 130px;
@@ -89,17 +105,6 @@ aside img{
 #index-section>article{
     margin-bottom: 50px;
 }
-.index-aside{
-    width: 25%;
-    margin-right: 20px;
-    flex-grow: 0;
-    flex-shrink: 0;
-    font-size: 1.3em;
-    border-style: double;
-    border-color: #000000;
-    border-width: 4px;
-    background-color: #add8e6 ;
-}
 .index-aside h2{
     margin-left: 10px;
 }
@@ -125,9 +130,6 @@ aside img{
     border-width: 4px;
     padding-right: 150px;
     padding-left: 150px;
-}
-.video-mobile{
-    display: none;
 }
 #grid-section{
     margin-left: 20px;
@@ -216,4 +218,13 @@ form{
 }
 .contact-aside img{
     width: 300px;
+}
+@media screen and (max-width:480px){
+    .big-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .video-pc{
+        display: none;/* for some reason, this still is visible.*/
+    }
 }
